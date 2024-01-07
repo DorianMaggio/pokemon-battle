@@ -26,7 +26,7 @@ pokemon.battle = (team1, team2) ->
   trainer2 = new Trainer team2.trainer
   trainer2.addPokemon new Pokemon pokemon for pokemon in team2.pokemon
 
-  # Fight!  
+  # Fight#  
   battle = new Battle trainer1, trainer2
   return battle.start().toString()
   
@@ -42,3 +42,4 @@ pokemon.buildDebug = (pokemonId) ->
   
 
 module.exports = pokemon
+ 
